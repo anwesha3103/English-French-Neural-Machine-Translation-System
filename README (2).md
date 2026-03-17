@@ -1,4 +1,4 @@
-# 🌐 English → French Neural Machine Translator
+#  English <-> French Neural Machine Translator
 
 <div align="center">
 
@@ -17,7 +17,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project implements **Neural Machine Translation (NMT)** using a GRU (Gated Recurrent Unit) encoder with word embeddings, trained on a parallel English-French corpus. The model is served through a minimal, elegant **Flask web application**.
 
@@ -25,18 +25,18 @@ This project implements **Neural Machine Translation (NMT)** using a GRU (Gated 
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🧠 **GRU-based sequence model** with 256-dimensional word embeddings
-- 📝 **Word-level tokenization** with Keras Tokenizer
-- ⚖️ **Dropout regularization** to prevent overfitting
-- 🌐 **Flask web interface** — clean, responsive, ready to deploy
-- 💾 **Serialized model & tokenizers** via pickle for fast loading
-- 🔁 **Easily retrainable** — just run `train.py`
+-  **GRU-based sequence model** with 256-dimensional word embeddings
+-  **Word-level tokenization** with Keras Tokenizer
+-  **Dropout regularization** to prevent overfitting
+-  **Flask web interface** — clean, responsive, ready to deploy
+-  **Serialized model & tokenizers** via pickle for fast loading
+-  **Easily retrainable** — just run `train.py`
 
 ---
 
-## 🖥️ Demo
+##  Demo
 
 | Input (English) | Output (French) |
 |---|---|
@@ -46,7 +46,7 @@ This project implements **Neural Machine Translation (NMT)** using a GRU (Gated 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 english-french-translator/
@@ -68,7 +68,7 @@ english-french-translator/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1 — Clone the repo
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 ### Step 1 — Train the model
 
@@ -114,7 +114,7 @@ Open **http://localhost:5000** in your browser.
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 Input tokens (English)
@@ -144,9 +144,8 @@ Output sequence (French tokens)
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
-**Small Vocabulary English-French corpus** hosted by [projjal1](https://github.com/projjal1/datasets)
 
 | Property | Value |
 |---|---|
@@ -160,7 +159,7 @@ The dataset uses a controlled vocabulary of common words about weather, geograph
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 All hyperparameters are at the top of `train.py`:
 
@@ -176,7 +175,7 @@ DROPOUT_RATE  = 0.5
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 ```
 tensorflow >= 2.12
@@ -187,7 +186,7 @@ numpy      >= 1.23
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Add attention mechanism
 - [ ] Support bidirectional GRU encoder
@@ -197,7 +196,7 @@ numpy      >= 1.23
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - Dataset by [projjal1](https://github.com/projjal1/datasets)
 - Built with [TensorFlow](https://tensorflow.org) / [Keras](https://keras.io)
@@ -206,5 +205,5 @@ numpy      >= 1.23
 ---
 
 <div align="center">
-Made with ❤️ · Neural Machine Translation from scratch
+ Neural Machine Translation from scratch
 </div>
